@@ -1,0 +1,14 @@
+Attachments for Bug Bounty Submission:
+
+1. poc.html
+   - Proof‑of‑Concept HTML page with OpenGraph meta tags injecting XSS payload.
+2. bookmarklet.js
+   - Bookmarklet to inject the same XSS payload into any open Instagram Web DM chat.
+3. screenshot_before.png
+   - Screenshot of the chat before preview renders (only the URL visible).
+4. screenshot_after.png
+   - Screenshot showing the JS alert executing in instagram.com context.
+5. demo_video.mp4
+   - Screen recording demonstrating sending the link and the alert pop-up.
+
+Please replace the placeholder screenshot and video files with actual captures from your testing environment.
